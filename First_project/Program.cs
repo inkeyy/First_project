@@ -1,6 +1,11 @@
-﻿Console.WriteLine("ТЕКСТ: ");
-string t =  Console.ReadLine();
-Console.WriteLine("колво символов - " + t.Length);
-Console.WriteLine("вверхний рег - " + t.ToUpper());
-Console.WriteLine("нижний рег - " + t.ToLower());
-Console.WriteLine("замена - " + t.Replace(" ", "_"));
+﻿String email = "ksfgwrwrerg";
+String ps = "2345fasa";
+int pincode = 2231;
+Console.Clear();
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine("\t\t\tВы успешно зарегались под этими данными:");
+Console.ForegroundColor = ConsoleColor.White;
+Console.WriteLine("почта - " + email);
+Console.WriteLine("пароль -  " + ps.Replace("fasa", "askdfws"));
+Console.WriteLine(" код - " + );
+/// comment
